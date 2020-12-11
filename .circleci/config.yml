@@ -4,10 +4,7 @@ version: 2.1
 jobs:
   test:
     docker:
-      - image: circleci/<language>:<version TAG>
-        auth:
-          username: mydockerhub-user
-          password: $DOCKERHUB_PASSWORD  # context / project UI env-var reference
+      - image: python
     steps:
       - checkout
       - run: echo "this is the test job"
