@@ -7,7 +7,7 @@ jobs:
       - image: python
     steps:
       - checkout
-      - run: echo "this is the test job"
+      - run: test_calc.py
 
 # Orchestrate our job run sequence
 workflows:
