@@ -1,5 +1,8 @@
-import calc
+#!/usr/bin/env python
 import unittest
+
+import calc
+
 
 
 class TestCalc(unittest.TestCase):
