@@ -1,7 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+
 import calc 
+import unittest
 
 
 class TestCalc(unittest.TestCase):
@@ -25,6 +27,7 @@ class TestCalc(unittest.TestCase):
         self.assertEqual(calc.divide(-18, 9), -2)
         self.assertEqual(calc.divide(-1, -1), 1)
         self.assertRaises(ValueError, calc.divide, 10, 0)
+
 
 if __name__ == "__main__":
     unittest.main()
