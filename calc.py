@@ -18,6 +18,3 @@ def divide(x, y):
     if y == 0:
         raise ValueError('Cannot divide by zero!')
     return x / y
-
-
-"""https://circleci.com/developer/orbs/orb/circleci/terraform Terraform orb for circle ci"""
