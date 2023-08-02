@@ -1,5 +1,7 @@
-import calc
-import unittest
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+import calc, unittest
 
 
 class TestCalc(unittest.TestCase):
