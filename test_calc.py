@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 
-import calc 
+import calc
 import unittest
 
 
