@@ -15,15 +15,18 @@ def add(x, y):
     """Add function"""
     return {"answer: ": x + y}
 
+
 @app.get("/subtract/{x}/{y}")
 def subtract(x, y):
     """Subtract function"""
     return {"answer: ": x + y}
 
+
 @app.get("/multiply/{x}/{y}")
 def multiply(x, y):
     """Multiply function"""
     return {"answer: ": x + y}
+
 
 @app.get("/divide/{x}/{y}")
 def divide(x, y):
